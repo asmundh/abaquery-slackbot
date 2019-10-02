@@ -12,7 +12,7 @@ dotenv.config();
 
 const bot = new SlackBot({
   token: process.env.BOT_TOKEN,
-  name: 'random picker',
+  name: 'Abaquery',
 });
 
 const logger = winston.createLogger({
