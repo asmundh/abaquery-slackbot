@@ -29,12 +29,7 @@ const controller = new Botkit({
 controller.on('message', async (bot, message) => {
   await bot.reply(message, 'I heard something!');
 });
-// const controller = new Botkit({
-//   json_file_store: './db_slackbutton_slash_command/',
-//   debug: true,
-//   clientSigningSecret: process.env.CLIENT_SIGNING_SECRET,
-//   storage: './log.txt',
-// });
+
 
 // controller.hears('hello', 'direct_message', (bot, message) => {
 //   bot.reply(message, 'Hello yourself');
